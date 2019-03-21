@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "497030978889",
+    "firebase_url": "https://tkeloggps.firebaseio.com",
+    "project_id": "tkeloggps",
+    "storage_bucket": "tkeloggps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497030978889:android:c322c4319c0aef5a",
+        "android_client_info": {
+          "package_name": "com.tkeloggpsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497030978889-1od4e31dhdo6had295i6ctgcuk3ndiv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkvrhHkl0-vG73_2Lwgpa8d9DEgtbyOnY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
