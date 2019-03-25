@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "TKELog-tvOS.app"
-               BlueprintName = "TKELog-tvOS"
-               ReferencedContainer = "container:TKELog.xcodeproj">
+               BuildableName = "TKELogGPSApp-tvOS.app"
+               BlueprintName = "TKELogGPSApp-tvOS"
+               ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "TKELog-tvOSTests.xctest"
-               BlueprintName = "TKELog-tvOSTests"
-               ReferencedContainer = "container:TKELog.xcodeproj">
+               BuildableName = "TKELogGPSApp-tvOSTests.xctest"
+               BlueprintName = "TKELogGPSApp-tvOSTests"
+               ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "TKELog-tvOSTests.xctest"
-               BlueprintName = "TKELog-tvOSTests"
-               ReferencedContainer = "container:TKELog.xcodeproj">
+               BuildableName = "TKELogGPSApp-tvOSTests.xctest"
+               BlueprintName = "TKELogGPSApp-tvOSTests"
+               ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "TKELog-tvOS.app"
-            BlueprintName = "TKELog-tvOS"
-            ReferencedContainer = "container:TKELog.xcodeproj">
+            BuildableName = "TKELogGPSApp-tvOS.app"
+            BlueprintName = "TKELogGPSApp-tvOS"
+            ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "TKELog-tvOS.app"
-            BlueprintName = "TKELog-tvOS"
-            ReferencedContainer = "container:TKELog.xcodeproj">
+            BuildableName = "TKELogGPSApp-tvOS.app"
+            BlueprintName = "TKELogGPSApp-tvOS"
+            ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "TKELog-tvOS.app"
-            BlueprintName = "TKELog-tvOS"
-            ReferencedContainer = "container:TKELog.xcodeproj">
+            BuildableName = "TKELogGPSApp-tvOS.app"
+            BlueprintName = "TKELogGPSApp-tvOS"
+            ReferencedContainer = "container:TKELogGPSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,5 +1,5 @@
 {
-  "name": "TKELog",
+  "name": "TKELogGPSApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.2.1",
     "react": "16.8.3",
     "react-native": "0.59.1",
     "react-native-firebase": "^5.2.3"
