@@ -9,12 +9,6 @@ import {
 import firebase from 'react-native-firebase'
 import AsyncStorage from '@react-native-community/async-storage';
 
-const channel = new firebase.notifications.Android.Channel('TKELog', 'TKELog', firebase.notifications.Android.Importance.Max)
-  .setDescription("TKELog's channel");
-
-// Create the channel
-firebase.notifications().android.createChannel(channel);
-
 export function CloudMess() {
   const [token, setToken] = useState(false)
 
@@ -65,7 +59,8 @@ export function CloudMess() {
     checkPermission()
   },[])
 
-  return (
-    <Text>{token}</Text>
-  )
+  return null
+  // return (
+  //   <Text>{token}</Text>
+  // )
 }

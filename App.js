@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
-import {YellowBox, StyleSheet, Text, View} from 'react-native';
-import {CloudMess} from './src/components'
-
+import {StyleSheet, Text, View, StatusBar} from 'react-native';
+import {CloudMess,ListenMess} from './src/components'
+import {RootStack} from './src/configs'
 export default class App extends Component {
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>FCM Token  </Text>
+        <StatusBar backgroundColor="black" animated={true}/>
+        <RootStack/>
         <CloudMess/>
       </View>
     );
@@ -16,9 +18,7 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'white',
   },
   welcome: {
     fontSize: 20,
