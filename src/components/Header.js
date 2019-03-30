@@ -78,7 +78,7 @@ export class Header extends PureComponent {
 
 const styles = StyleSheet.create({
     headerContainer: {
-        backgroundColor: "#07456f",
+        backgroundColor: "#204397",
         alignItems: "center",
         flexDirection: "row",
         paddingHorizontal: 10,

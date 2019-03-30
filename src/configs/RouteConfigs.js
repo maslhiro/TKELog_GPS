@@ -1,25 +1,28 @@
 import {
     createStackNavigator,
-    createAppContainer
+    createAppContainer,
 } from 'react-navigation'
 import {
     HomeScreen,
     SignInScreen,
-
+    NotiScreen,
+    SplashScreen
 } from '../screens'
 
 const AppNavigator = createStackNavigator({
-    Home: {
-        screen: HomeScreen
-    },
     SignIn: {
         screen: SignInScreen
+    },
+    Noti: {
+        screen: NotiScreen
+    },
+    Splash : {
+        screen : SplashScreen
     }
 },{
-    initialRouteName: 'SignIn',
-    /* The header config from HomeScreen is now here */
+    initialRouteName: 'Splash',
     defaultNavigationOptions: {
-        header : null
+        header: null
     }
 })
 

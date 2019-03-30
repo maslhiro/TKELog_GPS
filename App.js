@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, StatusBar} from 'react-native';
 import {CloudMess,ListenMess} from './src/components'
 import {RootStack} from './src/configs'
+import AsyncStorage from '@react-native-community/async-storage';
+
 export default class App extends Component {
 
   render() {
