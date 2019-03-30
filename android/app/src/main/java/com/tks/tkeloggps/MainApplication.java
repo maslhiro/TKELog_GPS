@@ -1,4 +1,4 @@
-package com.tkeloggpsapp;
+package com.tks.tkeloggps;
 
 import android.app.Application;
 
