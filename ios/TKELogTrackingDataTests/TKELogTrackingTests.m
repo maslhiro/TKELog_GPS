@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface TKELogGPSTests : XCTestCase
+@interface TKELogTrackingTests : XCTestCase
 
 @end
 
-@implementation TKELogGPSTests
+@implementation TKELogTrackingTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
-// import Icon from "react-native-vector-icons/Ionicons";
+import Icon from "react-native-vector-icons/Ionicons";
 import PropTypes from 'prop-types';
 
 export class Header extends PureComponent {
@@ -50,8 +50,7 @@ export class Header extends PureComponent {
         if (this.props.showLeftIcon) {
             return (
                 <TouchableOpacity onPress={() => this.props.onPressLeftIcon()}>
-                    <Text>left</Text>
-                    {/* <Icon name="md-arrow-dropleft" size={40} color="white"  /> */}
+                    <Icon name="md-arrow-dropleft" size={40} color="white"  />
                 </TouchableOpacity>)
         }
         else

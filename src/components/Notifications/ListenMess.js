@@ -17,7 +17,7 @@ export function ListenMess() {
   firebase.notifications().onNotification((notification: Notification) => {
     console.log("Noti : ", notification)
     notification.android.setChannelId(channel.channelId)
-    notification.android.setSmallIcon('@drawable/ic_car')
+    notification.android.setSmallIcon('@drawable/ic_noti')
     firebase.notifications().displayNotification(notification)
 
     setMessage([...message, notification.data])
