@@ -1,5 +1,4 @@
 export * from './Notifications/CloudMess'
 export * from './Notifications/ListenMess'
 export * from './Header'
-export * from './CheckTKEToken'
-export * from './Notifications/ListNoti'
+export * from './ListNoti'

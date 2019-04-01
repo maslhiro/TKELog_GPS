@@ -8,9 +8,40 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:656674485036:android:c322c4319c0aef5a",
+        "mobilesdk_app_id": "1:656674485036:android:103c11ad17adea36",
         "android_client_info": {
-          "package_name": "com.tkeloggpsapp"
+          "package_name": "com.tke.gps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656674485036-f2subpcvkaprvsvu0li28s71c01ofr0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA41AOGkSIoqBxZeTwSn1eFLtTWw1vFdzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656674485036:android:c5ee7ea9d0bdbdfe",
+        "android_client_info": {
+          "package_name": "com.tks.tkeloggps"
         }
       },
       "oauth_client": [

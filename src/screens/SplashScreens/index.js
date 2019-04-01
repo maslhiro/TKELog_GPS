@@ -24,28 +24,20 @@ export function SplashScreen() {
 
     }
 
-    useEffect(
-        () => {
+    useEffect(() => {
             let timer = setTimeout(() => {
                 setShowLoading(true);
                 checkToken()
 
             }, 2000)
+            // this will clear Timeout when component unmont like in willComponentUnmount
+            return () => {
+                clearTimeout(timer)
+            }},[])
 
-
-    // this will clear Timeout when component unmont like in willComponentUnmount
-    return () => {
-        clearTimeout(timer)
-    }
-},
-[] //useEffect will run only one time
-         //if you pass a value to array, like this [data] than clearTimeout will run every time this value changes (useEffect re-run)
+    return (
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Image source={img_logo} style={{ width: 250, height: 250 }} resizeMode='contain' />
+        </View>
     )
-return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Image source={img_logo} style={{ width: 250, height: 250 }} resizeMode='contain' />
-    </View>
-)
-
-
 }
